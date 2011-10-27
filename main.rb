@@ -20,6 +20,5 @@ class Tier
 end
 
 puts "Geben Sie ein Tier ein:"
-x = gets
-tier = Tier.new(x)
+tier = Tier.new(gets)
 tier.say
